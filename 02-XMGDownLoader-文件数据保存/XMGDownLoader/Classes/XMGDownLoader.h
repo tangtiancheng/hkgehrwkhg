@@ -8,10 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol XMGDownLoaderDelegate <NSObject>
+
+- (void)downloadData:(NSString *)path;
+
+
+@end
+
 @interface XMGDownLoader : NSObject
 
     
 - (void)downLoader:(NSURL *)url;
+
+@property (nonatomic, weak) id<XMGDownLoaderDelegate> delegate;
     
     
 @end

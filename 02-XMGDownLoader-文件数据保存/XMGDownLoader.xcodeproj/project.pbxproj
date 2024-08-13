@@ -64,8 +64,8 @@
 		70C909591E222B4100DBA849 /* XMGDownLoader */ = {
 			isa = PBXGroup;
 			children = (
-				70C9095D1E222B4100DBA849 /* AppDelegate.h */,
 				70C909711E222B5000DBA849 /* Classes */,
+				70C9095D1E222B4100DBA849 /* AppDelegate.h */,
 				70C9095E1E222B4100DBA849 /* AppDelegate.m */,
 				70C909601E222B4100DBA849 /* ViewController.h */,
 				70C909611E222B4100DBA849 /* ViewController.m */,
@@ -128,6 +128,7 @@
 				TargetAttributes = {
 					70C909561E222B4100DBA849 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GE5UCEG562;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -290,7 +292,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GE5UCEG562;
 				INFOPLIST_FILE = XMGDownLoader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.520it.XMGDownLoader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,7 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GE5UCEG562;
 				INFOPLIST_FILE = XMGDownLoader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.520it.XMGDownLoader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -327,6 +333,7 @@
 				70C909701E222B4100DBA849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
